@@ -24,19 +24,19 @@ button {
 }
 
 /* For task #03 */
-.item {
-  width: 30%;
-  height: auto;
-  padding: 10px;
-  border: 10px inset #0000ff ;
-  box-shadow:  5px 5px 10px #0055aa;
-}
-
 .list {
   display: flex;
   justify-content: center;
   list-style: none;
   column-gap: 10px;
+}
+
+.list__item {
+  width: 30%;
+  height: auto;
+  padding: 10px;
+  border: 10px inset #0000ff ;
+  box-shadow:  5px 5px 10px #0055aa;
 }
 
 .image{
